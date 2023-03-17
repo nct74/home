@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Dylan Nguyen. I’m a graduate of 2023 from HCMC University of Technology at VietNam with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://drive.google.com/file/d/1elKnKyJmPLd-q9pQ_uo5osTQtXo5u5Ay/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1S5qZYOA_Fk8woa_3c3EF3jtM0EG40pes/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -67,8 +67,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "nct74", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["FaceRecognition", "Restaurant_Service", "Introduce_Company", "smart-home"],
 };
 
 // Leadership SECTION
@@ -131,18 +131,18 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'ERP Consultant - Python Developer',
+      companylogo: require('../assets/img/novobi.jpg'),
+      date: 'June 2022 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Teaching Assistant',
+      companylogo: require('../assets/img/becodeching.jpg'),
+      date: 'Feb 2020 – Feb 2023',
     },
   ]
 }
