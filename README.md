@@ -227,3 +227,7 @@ This project has been archived. Means that it is no longer actively maintained b
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/hashirshoaeb/home.svg)](https://starchart.cc/hashirshoaeb/home)
+
+
+npm run build
+npm run custom-deploy
